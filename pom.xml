@@ -21,7 +21,7 @@
 		<spring.version>4.1.1.RELEASE</spring.version>
 		<servlet-version>3.0.1</servlet-version>
 		<junit-version>4.8.2</junit-version>
-		<java-version>1.6</java-version>
+		<java-version>1.8</java-version>
 	</properties>
 
 	<dependencies>
@@ -51,6 +51,14 @@
 			<artifactId>resteasy-spring</artifactId>
 			<version>${resteasy-version}</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-servlet-initializer -->
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-servlet-initializer</artifactId>
+			<version>${resteasy-version}</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework</groupId>
